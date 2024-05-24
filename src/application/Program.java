@@ -24,8 +24,8 @@ public class Program {
 		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		System.out.println("Product #" + (i+1) + " data:");
 		System.out.println("Comoon, imported or used? (1/2/3)");
-		int cui = sc.nextInt();
-		if(cui ==1) {
+		int ciu = sc.nextInt();
+		if(ciu ==1) {
 			System.out.println("Name:");
 			String name = sc.next();
 			System.out.println("Price:");
@@ -33,7 +33,7 @@ public class Program {
 			Product comoon = new Product(name, price);
 			listProduct.add(comoon);
 	
-		}else if(cui ==2) {
+		}else if(ciu==2) {
 			System.out.println("Name:");
 			String name = sc.next();
 			System.out.println("Price:");
